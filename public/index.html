@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Config del sitio-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>ISAMA | App & Design </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+ 
+    <!--SEO-->
+    <meta name="author" content="Ivan Perez">
+    <meta name="description" content="App, Design & Web">
+    <meta name="keywords" content="app,mobile,design,web,development">
+
+    <!--Favicons-->
+    <!--Ups me olvide-->
+
+    <!--CSS-->
+    <!--Librerias de CSS-->
+    <link type="text/css" rel="stylesheet" href="css/materlialize.no-font.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/animate.css" />
+    <link type="text/css" rel="stylesheet" href="css/jquery.bxslider.min.css" />
+    <!--Liberia de Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+    <!--Libreria de Iconos-->
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
+    <!--CSS Init-->
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection">
+</head>
+
+<body class="overflow">
+    <!--Modulo de Cargador-->
+    <i class="fa fa-circle-o-notch fa-3x fa-spin loader"></i>
+    <!--Pantalla oculta hasta se cargue los recuros-->
+    <div id="preload" class="notready">
+        <!--Top Header-->
+        <header id="top_header">
+            <div class="container">
+                <nav>
+                    <!--Nav Secundario y Sociales-->
+                    <div class="nav-wrapper">
+                        <a href="#" data-activates="mobileNavMenu" class="button-collapse"><i class="fa fa-bars text-grey"></i></a>
+                        <ul class="left hide-on-med-and-down">
+                            <li class="backbtn"><a href=""><i class="fa fa-file-text-o left iconfix"></i>Blog</a></li>
+                            <li class="backbtn"><a href=""><i class="fa fa-clipboard left iconfix"></i>Jobs</a></li>
+                            <li class="backbtn"><a href=""><i class="fa fa-life-ring left iconfix"></i>Support</a></li>
+                        </ul>
+                        <ul class="right hide-on-med-and-down">
+                            <li class="border"><a href=""><i class="fa fa-facebook-official fb"></i></a></li>
+                            <li class="border"><a href=""><i class="fa fa-twitter twitt"></i></a></li>
+                            <li class="border"><a href=""><i class="fa fa-instagram insta"></i></a></li>
+                            <li class="border"><a href=""><i class="fa fa-google-plus gplus"></i></a></li>
+                        </ul>
+                    </div>
+                    <!--FIN/Nav Secundario y Sociales-->
+                </nav>
+            </div>
+        </header>
+        <!--FIN/Top Header-->
+
+        <!--Header Principal-->
+        <header id="header">
+            <div class="container">
+                <!--Tooltips-->
+                <nav class="nav-wrapper logonav">
+                    <a href="#!" class="brand-logo wow fadeIn" data-wow-delay="0.60s">Logo</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li class="toolicon wall"><i class="fa fa-phone fa-2x tooltipped" data-position="top" data-tooltip="36-199-234-567"></i></li>
+                        <li class="toolicon wall"><i class="fa fa-map-marker fa-2x tooltipped" data-position="top" data-tooltip="Zapopan, Jalisco"></i></li>
+                        <li class="toolicon wall"><i class="fa fa-envelope-o fa-2x tooltipped" data-position="top" data-tooltip="hello@basiko.mx"></i></li>
+                    </ul>
+                </nav>
+                <!--FIN/Tooltips-->
+            </div>
+            <div class="linediv"></div>
+            <div class="container">
+                <!--Nav Header-->
+                <nav>
+                    <div class="nav-wrapper wow fadeIn" data-wow-delay="1.5s" id="mainNav">
+                        <ul id="normalNavMenu" class="left hide-on-med-and-down">
+                            <li><a href="#header" class="suave">Home</a></li>
+                            <li><a href="#about" class="suave">What about ISAMA</a></li>
+                            <li><a href="#doing" class="suave">What we do?</a></li>
+                            <li><a href="#projects" class="suave">Our projects</a></li>
+                            <li><a href="#team" class="suave">Excellent Team</a></li>
+                            <li><a href="#contact" class="suave">Contact</a></li>
+                        </ul>
+                        <ul class="right hide-on-med-only">
+                            <form>
+                                <div class="input-field">
+                                    <input id="search" type="search" placeholder="Type your search words" required>
+                                    <label for="search"><i class="fa fa-search"></i></label>
+                                </div>
+                            </form>
+                        </ul>
+                        <!--Nav para movil-->
+                        <ul class="side-nav" id="mobileNavMenu">
+                            <li><a href="#header" class="suave">Home</a></li>
+                            <li><a href="#about" class="suave">What about ISAMA</a></li>
+                            <li><a href="#doing" class="suave">What we do?</a></li>
+                            <li><a href="#projects" class="suave">Our projects</a></li>
+                            <li><a href="#team" class="suave">Excellent Team</a></li>
+                            <li><a href="#contact" class="suave">Contact</a></li>
+                        </ul>
+                        <!--FIN/Nav para movil-->
+                    </div>
+                </nav>
+                <!--FIN/Nav Header-->
+            </div>
+        </header>
+        <!--FIN/Header Principal-->
+
+        <!--Splash-->
+        <section id="splash">
+            <div class="container">
+                <div class="splash-padder">
+                    <h1 class="center-align"><span class="semibold wow flipInY" data-wow-delay="2s">LET&#8217;S DRAW SOME ARTS </span><br /><span class="light wow bounceInLeft" data-wow-delay="2.25s"> make your business much better</span> </h1>
+                </div>
+            </div>
+        </section>
+        <!--FIN/Splash-->
+
+        <!--Slider-->
+        <section id="slider" class="wow fadeInUp" data-wow-delay="0.45s">
+            <div class="container">
+                <div class="sliderContent">
+                    <!----------------------------------------------------->
+                    <div class="slide"><img src="images/design.png">
+                        <div class="caption center">
+                            <span><i class="fa fa-heart-o"></i> Like</span>
+                        </div>
+                    </div>
+                    <!----------------------------------------------------->
+                    <div class="slide"><img src="images/design2.png">
+                        <div class="caption center">
+                            <span><i class="fa fa-heart-o"></i> Like</span>
+                        </div>
+                    </div>
+                    <!----------------------------------------------------->
+                    <div class="slide"><img src="images/design.png">
+                        <div class="caption center">
+                            <span><i class="fa fa-heart-o"></i> Like</span>
+                        </div>
+                    </div>
+                    <!----------------------------------------------------->
+                    <div class="slide"><img src="images/design2.png">
+                        <div class="caption center">
+                            <span><i class="fa fa-heart-o"></i> Like</span>
+                        </div>
+                    </div>
+                    <!----------------------------------------------------->
+                    <div class="slide"><img src="images/design.png">
+                        <div class="caption center">
+                            <span><i class="fa fa-heart-o"></i> Like</span>
+                        </div>
+                    </div>
+                    <!----------------------------------------------------->
+                    <div class="slide"><img src="images/design2.png">
+                        <div class="caption center">
+                            <span><i class="fa fa-heart-o"></i> Like</span>
+                        </div>
+                    </div>
+                    <!----------------------------------------------------->
+                    <div class="slide"><img src="images/design.png">
+                        <div class="caption center">
+                            <span><i class="fa fa-heart-o"></i> Like</span>
+                        </div>
+                    </div>
+                    <!----------------------------------------------------->
+                    <div class="slide"><img src="images/design2.png">
+                        <div class="caption center">
+                            <span><i class="fa fa-heart-o"></i> Like</span>
+                        </div>
+                    </div>
+                    <!----------------------------------------------------->
+                    <div class="slide"><img src="images/design.png">
+                        <div class="caption center">
+                            <span><i class="fa fa-heart-o"></i> Like</span>
+                        </div>
+                    </div>
+                    <!----------------------------------------------------->
+                </div>
+            </div>
+        </section>
+        <!--FIN/Slider-->
+
+        <!--Boton Seguidor-->
+        <a class="upBtn hide-on-med-and-down follower center suave" href="#header"><i class="fa fa-chevron-up fa-2x text-grey"></i></a>
+        <!--FIN/Boton Seguidor-->
+
+        <!--What about ISAMA-->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <!----------------------------------------------------->
+                    <div class="col s12 m2 center wow zoomIn" data-wow-delay="0.75s">
+                        <img src="images/light.png" alt="ISAMA">
+                    </div>
+                    <div class="col s12 m4 wow zoomIn" data-wow-delay="0.95s">
+                        <h4 class="semibold">What about ISAMA</h4>
+                        <p class="justify">ISAMA is a marketing foundation located in Riyadh built on the talent of creation that leads to a modern concept of professionalism. At ISAMA we believe even if you are good at what you do, you have a great product or you provide an excellent service. We still can present you a little better to the world, creating your full identity, provides you with your marketing plans, design your website, print your publications, design your logo&#8217;s and offices. Simply we give your business the perfect image.</p>
+                    </div>
+                    <!----------------------------------------------------->
+                    <div class="col s12 m2 center wow zoomIn" data-wow-delay="1.25s">
+                        <img src="images/tree.png" alt="tree">
+                    </div>
+                    <div class="col s12 m4 wow zoomIn" data-wow-delay="1.45s">
+                        <h4 class="semibold">Why we exist</h4>
+                        <p class="justify">Reaching customer satisfaction through providing them with cutting-edge technologies that give clients access to a wide range of tools, ensuring efficient and results-oriented communication solutions, which grant them a special character that distinguishes them from the others in the business.</p>
+                    </div>
+                    <!----------------------------------------------------->
+                </div>
+            </div>
+        </section>
+        <!--FIN/What about ISAMA-->
+
+        <!--Dividor arco-->
+        <div class="container">
+            <div class="arc wow zoomInUp" data-wow-delay="0.55s"></div>
+        </div>
+        <!--FIN/Dividor arco-->
+
+        <!--What we do-->
+        <section id="doing">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card-panel">
+                            <!----------------------------------------------------->
+                            <div class="row wow zoomIn">
+                                <div class="col s12 m5 right-align">
+                                    <img src="images/target.png" alt="target">
+                                </div>
+                                <div class="col s12 m5 left">
+                                    <h3 class="semibold">What we do ?</h3>
+                                    <p>
+                                        Everything you need to do business intelligence right.
+                                    </p>
+                                </div>
+                            </div>
+                            <!----------------------------------------------------->
+                        </div>
+                    </div>
+                </div>
+                <div class="row wow bounceIn" data-wow-delay="0.75s">
+                    <!----------------------------------------------------->
+                    <div class="col s12 m2 center">
+                        <img src="images/wrench.png" alt="web">
+                    </div>
+                    <div class="col s12 m4">
+                        <h4 class="semibold">Web Design & Development</h4>
+                        <p class="justify">ISAMA Pvt. Ltd. designs and develops creative websites utilizing the latest technologies.</p>
+                    </div>
+                    <!----------------------------------------------------->
+                    <div class="col s12 m2 center">
+                        <img src="images/mobileapp.png" alt="mobileapp">
+                    </div>
+                    <div class="col s12 m4">
+                        <h4 class="semibold">Mobile Applications</h4>
+                        <p class="justify">Our Developers helps you to Design, Develop & Distribute Mobile Applications - Smarter & Faster.</p>
+                    </div>
+                    <!----------------------------------------------------->
+                </div>
+                <div class="row wow bounceIn" data-wow-delay="0.95s">
+                    <!----------------------------------------------------->
+                    <div class="col s12 m2 center">
+                        <img src="images/software.png" alt="software">
+                    </div>
+                    <div class="col s12 m4">
+                        <h4 class="semibold">Software Solutions</h4>
+                        <p class="justify">with our software for professional services and consulting firms. Grow your revenue and profit margins by assigning the right people to the right projects at the right time.</p>
+                    </div>
+                    <!----------------------------------------------------->
+                    <div class="col s12 m2 center">
+                        <img src="images/interior.png" alt="interior">
+                    </div>
+                    <div class="col s12 m4">
+                        <h4 class="semibold">Interior Design</h4>
+                        <p class="justify">We offer a variety of design services ranging from Full Service Interior Design and Styling to our Design Concierge service, all of which are executed with beautiful, custom-tailored results.</p>
+                    </div>
+                    <!----------------------------------------------------->
+                </div>
+                <div class="row wow bounceIn" data-wow-delay="1.15s">
+                    <!----------------------------------------------------->
+                    <div class="col s12 m2 center">
+                        <img src="images/mouse.png" alt="branding">
+                    </div>
+                    <div class="col s12 m4">
+                        <h4 class="semibold">Branding</h4>
+                        <p class="justify">We have our forte in advertising and Brand establishment. We create identities for the clients product and services in the target market.</p>
+                    </div>
+                    <!----------------------------------------------------->
+                    <div class="col s12 m2 center">
+                        <img src="images/earth.png" alt="seo">
+                    </div>
+                    <div class="col s12 m4">
+                        <h4 class="semibold">SEO & Web Marketing Services</h4>
+                        <p class="justify">We offer a variety of design services ranging from Full Service Interior Design and Styling to our Design Concierge service, all of which are executed with beautiful, custom-tailored results.</p>
+                    </div>
+                    <!----------------------------------------------------->
+                </div>
+            </div>
+        </section>
+        <!--FIN/What we do-->
+
+
+        <!--Our projects-->
+        <section id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card-panel">
+                            <div class="row wow zoomIn">
+                                <!----------------------------------------------------->
+                                <div class="col s12 m5 right-align">
+                                    <img src="images/chemical.png" alt="chemical">
+                                </div>
+                                <div class="col s12 m5 left">
+                                    <h3 class="semibold">Our Projects</h3>
+                                    <p>
+                                        Some of our awesome work Proud of doing great works for our clients.
+                                    </p>
+                                </div>
+                                <!----------------------------------------------------->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Botones de Filtros para Portafolios-->
+                <div id="" class="row center wow fadeIn">
+                    <a id="firstBtn" class="semibold waves-effect waves-light btn filter" data-filter=".mix">All</a>
+                    <a class="semibold waves-effect waves-light btn filter" data-filter=".mobileapp">Mobile Apps</a>
+                    <a class="semibold waves-effect waves-light btn filter" data-filter=".ids">Identities</a>
+                    <a class="semibold waves-effect waves-light btn filter" data-filter=".indesign">Interior Design</a>
+                    <a class="semibold waves-effect waves-light btn filter" data-filter=".uis">UI/UX</a>
+                </div>
+                <!--FIN/Botones de Filtros para Portafolios-->
+
+                <!--Portafolio-->
+                <div id="portafolio" class="wow bounceInUp">
+                    <div class="center">
+                        <div class="col s12 m3 estampa mix ids"><img class="responsive-img" src="images/img.png" alt=""></div>
+                        <div class="col s12 m3 estampa mix mobileapp"><img class="responsive-img" src="images/modernsoccer.png" alt=""></div>
+                        <div class="col s12 m3 estampa mix uis"><img class="responsive-img" src="images/arabnube.png" alt=""></div>
+                        <div class="col s12 m3 estampa mix mobileapp"><img class="responsive-img" src="images/muafa.png" alt=""></div>
+                        <div class="col s12 m3 estampa mix ids"><img class="responsive-img" src="images/openacc.png" alt=""></div>
+                        <div class="col s12 m3 estampa mix indesign"><img class="responsive-img" src="images/muafa.png" alt=""></div>
+                        <div class="col s12 m3 estampa mix indesign"><img class="responsive-img" src="images/carezma.png" alt=""></div>
+                        <div class="col s12 m3 estampa mix uis"><img class="responsive-img" src="images/dubaihouse.png" alt=""></div>
+                    </div>
+                </div>
+                <!--FIN/Portafolio-->
+
+            </div>
+        </section>
+        <!--FIN/Our projects-->
+
+        <!--Excellent Team-->
+        <section id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card-panel">
+                            <div class="row wow zoomIn">
+                                <div class="col s12 m5 right-align">
+                                    <img src="images/teamguy.png" alt="teamguy">
+                                </div>
+                                <div class="col s12 m5 left">
+                                    <h3 class="semibold">Meet Our Team</h3>
+                                    <p>
+                                        We have highly qualified staff with distinguished significant experiences in their field who work under pressure.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--TAMER-->
+                    <!----------------------------------------------------->
+                    <div class="col s12 m12 l3 wow bounceInUp" data-wow-delay="0.40s">
+                        <div class="teamcard center automargin">
+                            <img src="images/tamer.png" alt="Tamer">
+                            <p class="teamname semibold">Tamer</p>
+                            <p class="teamjob">Senior Software Engineer</p>
+                            <nav>
+                                <div class="nav-wrapper">
+                                    <ul>
+                                        <li><a href=""><i class="fa fa-facebook-official"></i></a></li>
+                                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--HAZEM-->
+                    <!----------------------------------------------------->
+                    <div class="col s12 m12 l3 wow bounceInUp" data-wow-delay="0.60s">
+                        <div class="teamcard center  automargin">
+                            <img src="images/hazem.png" alt="Hazem">
+                            <p class="teamname semibold">Hazem</p>
+                            <p class="teamjob">PHP Developer</p>
+                            <nav>
+                                <div class="nav-wrapper">
+                                    <ul>
+                                        <li><a href=""><i class="fa fa-facebook-official"></i></a></li>
+                                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--MOHAMMED-->
+                    <!----------------------------------------------------->
+                    <div class="col s12 m12 l3 wow bounceInUp" data-wow-delay="0.80s">
+                        <div class="teamcard center  automargin">
+                            <img src="images/mohammed.png" alt="Mohammed">
+                            <p class="teamname semibold">Mohammed</p>
+                            <p class="teamjob">PHP Developer</p>
+                            <nav>
+                                <div class="nav-wrapper">
+                                    <ul>
+                                        <li><a href=""><i class="fa fa-facebook-official"></i></a></li>
+                                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--AHMED-->
+                    <!----------------------------------------------------->
+                    <div class="col s12 m12 l3 wow bounceInUp" data-wow-delay="1.00s">
+                        <div class="teamcard center  automargin">
+                            <img src="images/ahmed.png" alt="Ahmmed">
+                            <p class="teamname semibold">Ahmed</p>
+                            <p class="teamjob">UI/UX Designer</p>
+                            <nav>
+                                <div class="nav-wrapper">
+                                    <ul>
+                                        <li><a href=""><i class="fa fa-facebook-official"></i></a></li>
+                                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <!----------------------------------------------------->
+                </div>
+            </div>
+        </section>
+        <!--FIN/Excellent Team-->
+
+        <!--Contact-->
+        <section id="contact">
+            <!--Mapa Google-->
+            <div id="map-canvas" class="wow slideInRight" data-wow-delay="0.30s"></div>
+            <!--FIN/Mapa Google-->
+        </section>
+        <!--FIN/CONTACT-->
+
+        <!--Footer-->
+        <footer>
+            <div class="container">
+
+                <!--Footer Nav-->
+                <nav>
+                    <div class="nav-wrapper">
+                        <ul class="left hide-on-med-and-down">
+                            <li class="border"><a href=""><i class="fa fa-facebook-official"></i></a></li>
+                            <li class="border"><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li class="border"><a href=""><i class="fa fa-instagram"></i></a></li>
+                            <li class="border"><a href=""><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                        <ul class="right hide-on-med-and-down">
+                            <form>
+                                <div class="input-field">
+                                    <input id="newsletter" type="email" placeholder="Enter your email for out newsletter" required>
+                                    <label for="newsletter"><i class="fa fa-envelope-square"></i></label>
+                                </div>
+                            </form>
+                        </ul>
+                    </div>
+                </nav>
+                <!--FIN/Footer Nav-->
+
+                <!--Copyright y Sitemaps-->
+                <div class="row">
+                    <div class="col s12 m6">
+                        <p>® Copyright 2014 - ISAMA for information technology</p>
+                    </div>
+                    <div class="col s12 m6 right-align">
+                        <p>
+                            <a href="">Blog</a>
+                            <a href="">Job</a>
+                            <a href="">Terms of Service</a>
+                            <a href="">Privacy</a>
+                            <a href="">Policy</a>
+                        </p>
+                    </div>
+                </div>
+                <!--FIN/Copyright y Sitemaps-->
+
+            </div>
+        </footer>
+        <!--FIN/Footer-->
+    </div>
+    <!--FIN/Modulo Preloader-->
+
+    <!--Librerias de JS-->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <!--JS Init-->
+    <script type="text/javascript" src="js/init.js"></script>
+</body>
+
+</html>

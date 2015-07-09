@@ -1,0 +1,25 @@
+Hola Iván, como te comenté te envío la prueba:
+
+El psd es bastante entendible, Es un one page que está dividido en 6 secciones más su header y footer. El menú principal debe dirigir a cada una de las secciones correspondientes
+What about ISAMA
+What we do?
+Our Projects
+Excellent Team
+Contact
+Los 3 iconos que están en la parte derecha del header, deben llevar en estado hover ese pequeño tootip que ves en la composición del PSD.
+
+El slider/carousel que está debajo del hero debe llevar 9 items, puedes repetir las imágenes que tiene la misma composición, lo único que se te pide es que tenga la funcionalidad de que las flechas next / prev te lleven a los siguientes 3 items.
+
+En la sección de Our Projects también puedes repetir los items que sean necesarios, lo único que se te pide es que los filtros: All, mobile apps, identities, interior design y UI/UX oculten y/o muestren los items que están en esas categorías. A estos items los puedes agregar a las categorías que quieras.
+
+El contacto solamente debe ser al mapa de Google Maps con un custom mark ubicado donde quieras.
+
+El link del psd es el siguiente: https://www.dropbox.com/s/3fzr3k7prz9aaz5/Portal_UI.psd
+La fecha de entrega será el próximo Jueves 9 de Julio en el transcurso del día.
+
+Los 2 puntos que calificamos son los siguientes:
+Limpieza del código
+Tiempo de carga del sitio
+Como te comenté, puedes usar las herramientas que quieras, desde pre-procesadores CSS (Sass, Less, Stylus, etc), Frameworks (Bootstrap, Semantic UI, Bourbon etc)
+
+Un saludo y cualquier duda que tengas házmela saber por favor.
