@@ -8,7 +8,7 @@ var config = {
     app: {
       name: 'basiko'
     },
-    port: (process.env.PORT || 5000),
+    port: 3000,
   },
 
   test: {
@@ -16,7 +16,7 @@ var config = {
     app: {
       name: 'basiko'
     },
-    port: (process.env.PORT || 5000),
+    port: 3000,
   },
 
   production: {
