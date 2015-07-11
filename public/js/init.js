@@ -1,11 +1,43 @@
 //Carga de documentos - jQuery document ready
 (function ($) {
     $(function () {
+        
+        
+        
+                //Portafolio
+        $(function () {
+            var filterList = {
+                init: function () {
+                    // MixItUp plugin
+                    // http://mixitup.io
+                    $('#portafolio').mixItUp({
+                        animation: {
+                            duration: 400,
+                            effects: 'fade scale(0.85) translateZ(-360px)',
+                            easing: 'ease'
+                        },
+                        selectors: {
+                            target: '.estampa',
+                            filter: '.filter'
+                        },
+                        callbacks: {
+                            onMixLoad: function () {
+                                $('#firstBtn').addClass('on')
+                            },
+                        },
+                        controls: {
+                            activeClass: 'on'
+                        }
+                    });
+                },
+            };
+            filterList.init();
+        });
 
         $(window).load(function () {
             // Después de carga, lo revelamos
             $('.loader').fadeOut('slow', function () {
-                $('#preload').css('visibility', 'visible').hide().fadeIn('slow');
+                $('#preload').css('visibility', 'visible').fadeIn('slow');
                 $('body').removeClass('overflow');
                 console.log("Page loaded, ready");
             });
@@ -68,35 +100,7 @@
         });
         $('.bx-controls-direction').addClass('hide-on-med-and-down');
 
-        //Portafolio
-        $(function () {
-            var filterList = {
-                init: function () {
-                    // MixItUp plugin
-                    // http://mixitup.io
-                    $('#portafolio').mixItUp({
-                        animation: {
-                            duration: 400,
-                            effects: 'fade scale(0.85) translateZ(-360px)',
-                            easing: 'ease'
-                        },
-                        selectors: {
-                            target: '.estampa',
-                            filter: '.filter'
-                        },
-                        callbacks: {
-                            onMixLoad: function () {
-                                $('#firstBtn').addClass('on')
-                            },
-                        },
-                        controls: {
-                            activeClass: 'on'
-                        }
-                    });
-                },
-            };
-            filterList.init();
-        });
+
 
         //Google Maps
         //Init
